@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table cellspacing ="10">
+            <tr>
+                <td><label for="ten">họ và tên</label></td>
+                <td><input type ="text" name="ten" id="ten"></td>                
+            </tr>
+            <tr>
+                <td><label for="email">email:</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="date">ngay sinh</label></td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="gioi tinh">giới tính</label></td>
+                <td><input type="radio" name="gioi tinh" id="gioi tinh">nam
+                    <input type="radio" name="gioi tinh" id="gioi tinh">nữ</td>
+            </tr>
+            <tr>
+                <td><label for="phone">số điện thoại:</label></td>
+                <td><input type="tel" name="phone" id="number"></td>
+            </tr>
+            <tr>
+                <td><label for="CN">Chuyên ngành: </label></td>
+                <td><input type="text" name="CN" id="CN"></td>
+            </tr>
+            <tr>
+                <td><label for="year">năm nhập học: </label></td>
+                <td><input type="number" name="year" id="year" ></td>
+            </tr>
+            <tr>
+                <td><lable for="GPA">điểm GPA: </lable></td>
+                <td><input tyle="number" name="GPA" id="GPA" min="0.1" max="4.0" style="width: 50px" ></td>
+            </tr>
+            <tr>
+                <td><label for="addr">Địa chỉ: </label></td>
+                <td><textarea name="comment" id="addr"  cols="30"></textarea> </td>
+            </tr>
+            <tr>
+                <td><label for="class">lớp học: </label></td>
+                <td>
+                    <select name="class" id="class">
+                        <option value="lớp 1">lớp 1</option>
+                        <option value="lớp 2">lớp 2</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="date">ngày đăng kí</label></td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>         
+        </table>
+           <button type="submit">Gửi thông tin</button> 
+    </form>
+    
+</body>
+</html>
+
+
