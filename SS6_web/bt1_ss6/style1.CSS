@@ -1,0 +1,44 @@
+.colorbr1{
+    background-color: rgba(53,121,246,255);
+    color:white;
+    text-align: center;
+    padding:15px;
+}
+
+.colorbr2{
+    background-color:white;
+    display:flex;
+    align-items: center;
+
+}
+
+.action{
+    color:white ; 
+    text-decoration:none ;
+    padding: 15px;
+}
+
+.text{
+    align-items: center;
+}
+
+img{
+    width:150px;
+    height:150px;
+    border-radius: 60%;
+    padding:30px;
+    margin-left: 400px;
+}
+
+
+.colorbr3{
+    background-color:rgba(242, 242, 242, 1) ;
+    height:40px;
+    text-align: center;
+
+}
+
+.div2{
+    display:block;
+    padding:10px;
+}

@@ -1,0 +1,46 @@
+.colorbr1{
+    background-color: rgba(103,173,91,255);
+    color:white;
+    text-align: center;
+    height:13vh;
+}
+
+.colorbr2{
+    background-color: white;
+    display:flex;
+}
+
+.link{
+    text-align: center;
+}
+
+.block1{
+    background-color: rgba(249,249,249,255);
+    width:30%;
+    border:1px solid ;
+    height:70vh;
+
+}
+
+.block2{
+    padding-left: 20px;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+img{
+    width:80%;
+}
+
+.colorbr3{
+    background-color: rgba(51,51,51,255);
+    color:white;
+    height:6vh;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+
+}
+
