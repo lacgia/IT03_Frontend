@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+              
+              @keyframes move{
+                0%{
+                    transform: translatex(0px)   ;
+                    transform: rotate(90deg)
+                }
+                25%{
+                    transform: translatex(200px)  ;
+                    transform: rotate(90deg) 
+                }
+                50%{
+                    transform: translatex(200px) ;  
+                    transform: rotate(90deg)
+                }
+
+                100%{
+                    transform: translatex(0px)  ;
+                    transform: rotate(90deg) 
+                }
+
+              }
+
+        .parent{
+            position: relative;
+            width:500px;
+            height:50vh;
+            background-color: rgb(28, 209, 43);
+            border: 2px dotted;
+        }
+
+        .box{
+            background-color: aqua;
+            height:100px;
+            width:300px;
+            position: absolute;
+            border: 3px solid red;
+            animation: move 5s ease 1s infinite;
+        }
+
+        .box:hover{
+            width:200px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box">
+            <p>lAC</p>
+        </div>
+    </div>
+</body>
+</html>

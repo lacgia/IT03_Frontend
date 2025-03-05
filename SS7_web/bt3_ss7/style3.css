@@ -1,0 +1,22 @@
+.img1{
+    width:50px;
+}
+
+.img2{
+    width:600px;
+    height: 60vh;
+}
+
+.text1{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.com{
+    display:flex;
+    gap: 10px;
+}
+
+.block{
+    width:650px;
+}

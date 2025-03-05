@@ -1,0 +1,28 @@
+.colorbr1{
+    background-color: rgba(242, 242, 242, 1);
+    text-align: center;
+}
+
+.color1{
+    color:rgba(173,50,48,255);
+}
+
+.color2{
+    color:rgba(139,134,162,255);
+}
+
+.colorblock{
+    background-color: white;
+    width:200px;
+    border:2px solid ;
+    border-radius: 5px;
+    height: 20vh;
+}
+
+body{
+    
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 100vh;
+}
