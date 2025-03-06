@@ -1,0 +1,34 @@
+h1{
+    border-bottom:5px solid #e6817e;
+    width:300px;
+}
+
+.icon1{
+    transform: rotate(45deg);
+    border: 1px solid rgb(134, 130, 130);
+    margin:20px;
+    width:80px;
+    height: 80px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin:50px;
+   
+}
+.chia{
+    display:flex;
+    align-items: center;
+    
+    
+}
+
+.icon1 i{
+    transform: rotate(-45deg);
+    color:#e6817e;
+}
+
+.text2{
+    padding-bottom: 50px;   
+    flex:1;
+    max-width: 400px;
+}

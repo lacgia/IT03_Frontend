@@ -1,0 +1,38 @@
+div{
+    margin:30px;
+   
+}
+
+table{
+   border-top: 0.1px solid black;
+
+}
+
+td{
+   
+    text-align: center;
+    align-items: center;
+    height:50vh;
+    
+}
+
+td:nth-child(1) { 
+    border-right: 0.1px solid black; 
+}
+
+td:nth-child(2) {
+    border-right: 3px solid black; 
+}
+
+button{
+    background-color: white;
+}
+
+.text1{
+    color:#babac1;
+}
+
+.text2{
+    color:#959a9e;
+}
+

@@ -1,0 +1,29 @@
+button{
+    background-color: white;
+    border:2px solid #e6817e;
+    border-radius: 5px;
+    color:#e6817e;
+}
+
+td:nth-child(1){
+    border-right: 2px solid black;
+}
+
+td:nth-child(2){
+    border-right: 2px solid black;
+}
+
+td{
+    padding:20px;
+}
+
+.color3{
+   
+    color:black;
+    padding:50px;
+    width:400px;
+}
+
+h2{
+    border-bottom: 5px solid #e6817e;
+}
