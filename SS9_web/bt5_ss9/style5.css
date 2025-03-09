@@ -1,0 +1,34 @@
+.br1{
+width:800px;
+}
+
+.block{
+    background-color: #75147c;
+    color: white;
+    width: 15%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.br3{
+   
+    width:780px;
+    height: 12vh;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+    
+}
+
+.lac{
+ 
+    width:100%;
+    height: 15vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+   
+}

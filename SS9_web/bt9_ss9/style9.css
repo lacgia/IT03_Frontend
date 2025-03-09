@@ -1,0 +1,55 @@
+.block img:first-child {
+    width: 1420px;
+    height: 330px;
+}
+p{
+    color: rgb(246, 240, 240);
+}
+
+h2{
+    color:rgb(244, 237, 237);
+    font-size: 30px;
+}
+
+h1{
+   color:rgb(22, 16, 16);
+        font-size: 70px;
+   
+    
+}
+
+
+
+.block1 img
+{
+    width:467px !important;
+    height: 200px !important;
+}
+
+.to{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+   
+}
+
+.text1{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+}
+
+.block1{
+    position: relative;
+}
+
+.block{
+    position: relative;
+}
+
+.body{
+    display: flex;
+flex-direction: column;
+    gap:10px;
+}

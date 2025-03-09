@@ -1,0 +1,49 @@
+.br1{
+    width:360px;
+    height: 28vh;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.big{
+    width:100%;
+    height:13vh;
+    background-color: #313f4f;
+    color:white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box{
+    width:360px;
+    height: 28vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.small{
+    width:35%;
+    background-color: #313f4f;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    
+}
+
+.block{
+    display: flex;
+    gap:10px;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
