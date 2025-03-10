@@ -1,0 +1,45 @@
+.br1{
+    width: 70%;
+    height: 60vh;
+    background-color: #f2e6d0;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    display: flex;
+    gap:20px;
+    padding-left: 850px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #ed6d68;
+    color: white;
+    border: 3px solid #ed6d68; 
+    border-radius: 7px;
+    width: 150px;
+    height: 5vh;
+    font-size: 15px;
+     
+}
+
+
+.block{
+    display: flex;
+    padding-left: 120px;
+    padding-top: 90px;
+    gap:70px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 40px;
+}

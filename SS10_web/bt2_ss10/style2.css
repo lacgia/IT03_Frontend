@@ -1,0 +1,32 @@
+.br2{
+    width:100%;
+    height: 39vh;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.br1{
+    width:1000px;
+    background-color: #fafbfc;
+}
+
+img{
+    width: 90%;
+    height: 25vh;
+}
+
+.block{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edeff2;
+    color: #83898f;
+}
+
+.lac{
+    display: flex;
+}
+
