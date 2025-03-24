@@ -1,0 +1,138 @@
+body{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    height: 200vh;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+}
+
+h3{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+}
+
+header{
+}
+
+.head1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.bar{
+    
+   color: #5d8481;
+   border-bottom: 2px solid #5d8481;
+    
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    width: 300px;
+    padding-right: 40px;
+}
+
+.head2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img2{
+    width: 1240px;
+    height: 550px;
+}
+h1{
+    font-size: 40px;
+}
+
+.p1, .p2{
+    display: flex;
+    gap: 30px;
+   
+   
+}
+
+.p1{
+height: 5vh;
+}
+
+.p2{
+    font-size: 13px;
+    color: #b9b7bd;
+    gap: 10px;
+}
+
+.poin{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container{
+    display: flex;
+    gap: 300px;
+}
+
+.i1{
+   margin-top: 30px;
+   display: flex;
+   gap: 30px;
+}
+
+.t1{
+
+   height: 15vh;
+  
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.icon1{
+   margin-top: 40px;
+   font-size: 20px;
+   border: 2px solid black;
+   height: 30px;
+   width: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   background-color: #f0f0f0;
+   color: gold;
+}
+
+h2{
+    font-size: 25px;
+}
+
+
+

@@ -1,0 +1,155 @@
+h1{
+    font-size: 40px;
+}
+
+.block{
+    width: 285px;
+    height: 53vh;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 285px;
+    height: 301px;
+}
+
+.text{
+    width: 249px;
+    height: 99px;
+   margin: 20px 0 0 20px;
+    line-height: 0.5;
+}
+
+h3{
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2{
+    color: rgba(137, 137, 137, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text4{
+    color: rgba(176, 176, 176, 1);
+    font-size: 16px;
+    Text-decoration:line-through;
+}
+
+.sel{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    color: white;
+    background-color: #da7874;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+bottom: 330px;
+left: 220px;
+}
+
+
+button{
+    color: white;
+    background-color: gold;
+    position: absolute;
+    bottom: 270px;
+    left: 100px;
+    opacity: 0;
+    z-index: 10;
+    width: 60px;
+
+}
+
+.hide{
+    background-color: #cccccc;
+    width: 285px;
+    height: 409px;
+    position: absolute;
+    top: 1px;
+    opacity: 0;
+    z-index: 5;
+}
+
+
+.hide:hover{
+    opacity: 0.5;
+}
+
+.block:hover button{
+    opacity: 1;
+}
+
+.block:hover .icon{
+    opacity: 1;
+}
+
+.icon{
+    color: white;
+    position: absolute;
+    bottom: 230px;
+    left: 50px;
+    opacity: 0;
+    z-index: 10;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    color: rgba(184, 142, 47, 1);
+    border: 2px solid rgba(184, 142, 47, 1);
+    padding: 10px;
+    margin-top: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sell{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    color: white;
+    background-color: #60beac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+bottom: 330px;
+left: 220px;
+}
+
+
