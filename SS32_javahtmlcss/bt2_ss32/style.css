@@ -1,0 +1,19 @@
+body{
+    background-color: #f0f0f0;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+p{
+    font-size: 50px;
+    color: #333;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+}

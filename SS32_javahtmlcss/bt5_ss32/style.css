@@ -1,0 +1,86 @@
+.boxpa{
+    background-color: #f4f4f4;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+   
+}
+
+.boxchi{
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: auto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    margin:20px 5px 10px 35px;
+    border-radius: 5px;
+}
+
+
+button{
+    width: 70px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: #53a551;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.li{
+    width: 90%;
+    height: 30px;
+    
+    margin: 5px 5px;
+    gap: 270px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.x{
+    font-size: 15px;
+    color: white;
+    background-color: #eb3423;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.boxx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ height: auto;
+ margin-bottom: 0px;
+ margin-top: 0px;
+}
+
+hr {
+    width: 90%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 5px auto;
+}
