@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table1{
+            width: 550px;
+            height:60px;
+        }
+        .table2{
+            width: 550px;
+           text-align: center;
+        }
+        td{
+            
+        }
+    </style>
+</head>
+<body>
+  <table border="1" class="table1">
+   <tr>
+    <td>
+        <label for="name">tên nhân viên:</label>
+        <input type="text" name="name" id="name">
+    </td>
+    <td> 
+        <label for="role">chức vụ:</label>
+        <input type="text" name="role" id="role">
+    </td>
+   </tr>
+  </table><br>
+
+  <button type="submit">thêm nhân viên</button><br>
+
+  <br><table border="1" class="table2">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Chức vụ</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+  </table>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
