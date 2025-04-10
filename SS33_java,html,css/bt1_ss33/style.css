@@ -1,0 +1,27 @@
+input{
+    width: 70%;
+    position: relative;
+}
+
+i{
+    position: absolute;
+   left: 600px;
+     top: 144px;
+     cursor: pointer;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: #f0f0f0;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

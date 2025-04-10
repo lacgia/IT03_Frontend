@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #f2f8fe;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+  
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.boxchi{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.mini{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+h1{
+    color: #2a64c5;
+    font-size: 40px;
+}
+
+button{
+    background-color: #2a64c5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 33px;
+    border-radius: 5px;
+    border: 5px solid #2a64c5;
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.search{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun{
+    font-size: 70px;
+}
+
+.oc{
+    font-size: 60px;
+}
+
+.city{
+    font-size: 50px;
+    padding: 20px 0 10px 20px;
+    margin: 0;
+}
