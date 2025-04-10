@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="border border-black rounded p-4 shadow">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <p id="emailError" class="d-none text-danger">cannot be left blank</p>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+          <p id="passError" class="d-none text-danger">cannot be left blank</p>
+        </div>
+      
+        <button type="button" onclick="check()" class="btn btn-primary w-100">Submit</button>
+        <div class="auth-links d-flex justify-content-between mt-3">
+            <a href="/SS34_java/bt1_ss33/index.html">Sign up</a>
+            <a href="#">Forgot Password?</a>
+        </div>
+      </form>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
