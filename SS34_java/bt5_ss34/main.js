@@ -47,7 +47,7 @@ function add() {
     localStorage.setItem("list", JSON.stringify(list))||[];
 }
 
-function renderlist(page = 1) {
+function renderlist(page = 1) {   //page =1 la gia tri mac dinh neu nguoi dung khong truyen bat ki tham so gi 
     curpage = page;
     let start = (page - 1) * pagelength;
     let end = page * pagelength;
